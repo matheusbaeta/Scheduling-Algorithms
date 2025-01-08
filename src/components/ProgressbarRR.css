@@ -1,0 +1,29 @@
+.progressbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  width: auto; 
+}
+
+.progressbar {
+  position: relative;
+  overflow: hidden;
+  width: 400px; 
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ddd;
+  margin: 5px 0;
+}
+
+.progressbar div {
+  height: 100%;
+  transition: width 0.1s ease;
+}
+
+.percentage {
+  font-size: 1.0em;
+  color: #555;
+  margin-top: 5px;
+  text-align: left;
+}
