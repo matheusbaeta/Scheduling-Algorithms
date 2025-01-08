@@ -8,8 +8,8 @@ function Process({ process }) {
                {process.name.toUpperCase()}
             </div>
             <div className="process-details">
-                <span>Chegada/Arrival: {process.arrival}s</span>
-                <span>Tempo de Execucao/Burst: {process.executionTime}s</span>
+                <span>Arrival: {process.arrival}s</span>
+                <span>Burst Time: {process.executionTime}s</span>
             </div>
         </div>
     );

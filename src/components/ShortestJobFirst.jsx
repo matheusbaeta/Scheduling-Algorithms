@@ -51,10 +51,10 @@ function ShortestJobFirst({ processes, updateProcessStatus, finishProcess }) {
       return (
         <div className="status-container">
           <div>
-          Tempo Medio de Execucao/Average Turnaround: {avg.averageTurnaroundTime.toFixed(2)}s
+          Average Turnaround: {avg.averageTurnaroundTime.toFixed(2)}s
           </div>
           <div>
-          Tempo Medio de Espera/Average Waiting Time: {avg.averageWaitingTime.toFixed(2)}s 
+          Average Waiting Time: {avg.averageWaitingTime.toFixed(2)}s 
           </div>
           <div>
             {sortedProcesses.map(p => p.name + "  ")}

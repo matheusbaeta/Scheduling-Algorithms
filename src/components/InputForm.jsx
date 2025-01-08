@@ -18,9 +18,9 @@ function InputForm({ createProcess, resetData }) {
 
     return (
         <form className="input-form" onSubmit={handleSubmit}>
-           <h2>Processos/Processes</h2>
+           <h2>Processes</h2>
             <div className="input-group">
-                <label>Processo/Process:</label>
+                <label>Process:</label>
                 <input
                     type="text"
                     value={process}
@@ -28,7 +28,7 @@ function InputForm({ createProcess, resetData }) {
                 />
             </div>
             <div className="input-group">
-                <label>Tempo de Chegada/Arrival:</label>
+                <label>Arrival:</label>
                 <input
                     type="number"
                     value={arrivalTime}
@@ -37,7 +37,7 @@ function InputForm({ createProcess, resetData }) {
                 />
             </div>
             <div className="input-group">
-                <label>Tempo de Execucao/Burst:</label>
+                <label>Burst Time:</label>
                 <input
                     type="number"
                     value={executionTime}

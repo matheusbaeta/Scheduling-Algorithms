@@ -16,6 +16,13 @@ This React application simulates two CPU scheduling algorithms: **Shortest Job F
 - A real-time graphical representation of how processes are scheduled in the CPU.
 - Users can input different processes and their burst times to see the scheduling process in action.
 
+## Screenshots
+
+![screenshot](images/processes.png)
+![screenshot](images/shortestJobFirst.png)
+![screenshot](images/metrics.png)
+
+
 ## Installation
 
 Clone the repository:
@@ -37,7 +44,7 @@ npm install
 
 Start the development server:
 
-```
+```bash
 npm run dev
-´´´
+```
 

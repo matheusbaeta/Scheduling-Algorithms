@@ -151,13 +151,13 @@ function RoundRobin({ processes, quantum,  updateProcessStatus }) {
         return (
             <div className="status-container">
                 <div>
-                    Tempo Medio de Execucao/Average Turnaround: {avg.averageTurnaroundTime.toFixed(2)}s
+                    Average Turnaround: {avg.averageTurnaroundTime.toFixed(2)}s
                 </div>
                 <div>
-                    Tempo Medio de Espera/Average Waiting: {avg.averageWaitingTime.toFixed(2)}s
+                    Average Waiting: {avg.averageWaitingTime.toFixed(2)}s
                 </div>
                 <div>
-                    Troca de Contexto/Context Switches: {executionQueue.length}
+                    Context Switches: {executionQueue.length}
                 </div>
                 <div>
                     {executionQueue.map((p, index) => <div key={index}>{p.process.name}: {p.duration}s</div>)}
